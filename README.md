@@ -13,7 +13,7 @@ The task is to develop 2 computer vision models for object detection tasks.
 
 Participants will develop models to predict the posture of an animal. LPossible labels include Front, Rear, Left and Right.
 
-<img src=",/sample_images/posture.PNG"/>
+<img src="./sample_images/posture.PNG"/>
 
 ### Well Identification and Measurement
 
