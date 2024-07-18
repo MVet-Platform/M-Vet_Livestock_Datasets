@@ -23,6 +23,9 @@ There are 2 main datasets for this competion:
 4. The Dataset can be obtained using the following python code:
 
    ```python
+   import os
+   import json
+
    HOME=os.getcwd()
    !mkdir {HOME}/datasets
    %cd {HOME}/datasets
