@@ -17,13 +17,11 @@ Participants will develop models to predict the posture of an animal. Possible l
 
 ### Well Identification and Measurement
 
-For the object detection task, participants will develop models to detect various stages of the cocoa fruit in the coccoa tree images:
-
 # Quick Links
 
-1. [Datasets](https://github.com/MVet-Platform/M-Vet_Hackathon24/resources/dataset.md)
-2. [Well Identification and Measurement Tutorial](https://github.com/MVet-Platform/M-Vet_Hackathon24/resources/well_identification.ipynb)
-3. [Animal Posture Detection Tutorial](https://github.com/MVet-Platform/M-Vet_Hackathon24/resources/animal_posture.ipynb)
-4. [Making a Submission](https://github.com/MVet-Platform/M-Vet_Hackathon24/resources/submission.md)
-5. [Frequently Asked Questions](https://github.com/MVet-Platform/M-Vet_Hackathon24/resources/faqs.md)
-6. [Prizes](https://github.com/MVet-Platform/M-Vet_Hackathon24/resources/prizes.md)
+1. [Datasets](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/dataset.md)
+2. [Well Identification and Measurement Tutorial](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/well_identification.ipynb)
+3. [Animal Posture Detection Tutorial](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/animal_posture.ipynb)
+4. [Making a Submission](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/submission.md)
+5. [Frequently Asked Questions](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/faqs.md)
+6. [Prizes](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/prizes.md)
