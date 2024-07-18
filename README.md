@@ -1,7 +1,7 @@
 # M-Vet_Hackathon24
 
 This repository contains resources for the [Makerere Artificial Intelligence Lab](https://air.ug/) Computer Vision for agriculture Hackathon.  
-The Hackathon is running from start date to end date .  
+The Hackathon is running from **tdb** to **tdb** .  
 The competition will focus on building computer vision models for Well Identification & Measurement Prediction and Animal posture prediction.  
 Through this, university students will gain experience in building solutions for deployment in the field.
 
@@ -12,8 +12,6 @@ The task is to develop 2 computer vision models for object detection tasks.
 ### Animal Posture Detection
 
 Participants will develop models to predict the posture of an animal. Possible labels include Front, Rear, Left and Right.
-
-<img src="https://github.com/MVet-Platform/M-Vet_Hackathon24/sample_images/posture.PNG"/>
 
 ### Well Identification and Measurement
 
