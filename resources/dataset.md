@@ -46,32 +46,42 @@ There are 2 main datasets for this competion:
 **NOTE**
 You can use your own configuration with the train and validation sets during the model training.
 
-## [Cocoa Detection Dataset](https://storage.googleapis.com/air-lab-hackathon/Cocoa/cocoa_new.zip)
+## Animal Posture Dataset
 
-1. The dataset contains objects in cocoa trees under 4 classes Spoilt, Immature, Mature_Unripe and Ripped. It has been split into 3 subsets.
+1. The dataset contains animals under four classes: **Front**, **Rear**, **Right** and **Left**. It has been split into 3 subsets.
 
-   - Train with **4550** images.
-   - Validation with **1262** images.
-   - Test with **318** images.
+   - Train with **tbd** images.
+   - Validation with **tbd** images.
+   - Test with **tbd** images.
 
-2. The dataset can be downloaded as a single zip file of ~370MB from [here](https://storage.googleapis.com/air-lab-hackathon/Cocoa/cocoa_new.zip).
+2. Sample images from the dataset
 
-   <img src="https://github.com/AI-Lab-Makerere/CV4Agriculture_Hackathon24/blob/main/resources/images/cocoa_annotated.png" />
+<p align="center">
+  <img src="https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/sample_images/val_batch0_pred.png" alt="Image 4" />
+</p>
 
-3. The dataset has 2 types of labels.
-   The first type is PASCAL VOC XML files for every image with the label information (see picture below) and these are found in the respective train and validation folders alongside the images.
-   The second type of label is a CSV file named `labelmap.csv` that is found in the train and validation folders. A row in the CSV represents an object in the image and has 10 columns;
+4. The Dataset can be obtained using the following python code:
 
-   - **Image id** - The filename of the image in the respective folder. Note that this is repeated for images with multiple objetcs
-   - **Actual Label** - The class label of the objects of interest in the image.
-   - **xmin, ymin, xmax, ymax** - The bounding box cordinates of the objects in the image.
-   - **xmin_norm, ymin_norm, xmax_norm, ymax_norm** - The normalized bounding box coordinates of the objects in the image.
+   ```python
+   import os
+   import json
 
-  <p style="text-align: center;">Image shows a sample PASCAL VOC annoation in XML format</p>  
-  <img height="400" src="https://github.com/AI-Lab-Makerere/CV4Agriculture_Hackathon24/blob/main/resources/images/cocoa_xml_label.png"/>
+   HOME=os.getcwd()
+   !mkdir {HOME}/datasets
+   %cd {HOME}/datasets
+   DATASET_LOCATION=f"{HOME}/datasets/Animal Posture Detection"
 
-  <p style="text-align: center;">Image shows a sample of the labels in a CSV file for Cocoa</p>  
-  <img height="400" src="https://github.com/AI-Lab-Makerere/CV4Agriculture_Hackathon24/blob/main/resources/images/cocoa_csv_label.png"/>
+   data = {"username":"labanochwo","key":"cb6bdd8fa399054395055df848c757b8"}
+   with open(f'{HOME}/kaggle.json', 'w') as file:
+       json.dump(data, file, indent=4)
+
+   !mkdir -p ~/.kaggle
+   !mv '{HOME}/kaggle.json' ~/.kaggle/
+   !chmod 600 ~/.kaggle/kaggle.json
+   !kaggle datasets download -d labanochwo/animal-posture
+   !unzip -q animal-posture.zip -d '{HOME}/datasets/Animal Posture Detection'
+   !rm -rf animal-posture.zip
+   ```
 
 **NOTE**
 You can use your own configuration with the train and validation sets during the model training.
