@@ -57,7 +57,7 @@ You can use your own configuration with the train and validation sets during the
 2. Sample images from the dataset
 
 <p align="center">
-  <img src="https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/sample_images/val_batch0_pred.png" alt="Image 4" />
+  <img src="https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/sample_images/val_batch0_pred.jpg" alt="Image 4" />
 </p>
 
 4. The Dataset can be obtained using the following python code:
