@@ -9,6 +9,9 @@ Before you upload your result, please take note of the following.
 
 ## Well Identification Submission
 
+Submissions are evaluated by computing mean Average Precision (mAP).
+The final mAP is computed as the average AP over the 81 classes. The participants will be ranked on this final metric.
+
 The CSV file for the Well Identification task must be formated as shown in the image below.
 
 <p align="center"><img src="https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/sample_images/well_submission.png" alt="Image 3" /></p>
