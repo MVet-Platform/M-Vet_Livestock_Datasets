@@ -7,13 +7,15 @@ Through this, university students will gain experience in building solutions for
 
 ## The problem
 
-The task is to develop 2 computer vision models for object detection tasks.
+The task is to develop 2 computer vision models, one for an object detection and the other for image segmentation.
 
 ### Animal Posture Detection
 
-Participants will develop models to predict the posture of an animal. Possible labels include Front, Rear, Left and Right.
+Participants will develop models to predict the posture of an animal. Possible labels include **Front**, **Rear**, **Left** and **Right**.
 
 ### Well Identification and Measurement
+
+Participants will develop object detection models for well identification and measurement.
 
 # Quick Links
 
