@@ -2,26 +2,21 @@
 
 This repository contains resources for the [Makerere Artificial Intelligence Lab](https://air.ug/) Computer Vision for agriculture Hackathon.  
 The Hackathon is running from **tdb** to **tdb** .  
-The competition will focus on building computer vision models for Well Identification & Measurement Prediction and Animal posture prediction.  
-Through this, university students will gain experience in building solutions for deployment in the field.
+The competition will focus on building computer vision models for Animal type detection and Body score prediction.
 
-## The problem
+### Animal Type detection
 
-The task is to develop 2 computer vision models, one for an object detection and the other for image segmentation.
+Participants will develop models to predict the types of animals in an image. Animal classes include cow, goat and pig.
 
-### Animal Posture Detection
+### Body score prediction
 
-Participants will develop models to predict the posture of an animal. Possible labels include **Front**, **Rear**, **Left** and **Right**.
+Participants will develop models to predict the body score of an animal given an image of the animal. The range of possible values for body score is from 1 to 5
 
-### Well Identification and Measurement
+#### Note:
 
-Participants will develop object detection models for well identification and measurement.
+All necessary resources are available in other branches of this repository. Resources for body score prediction can be found in **body_score_prediction_dataset** branch while those for animal type detection can be found in **animal_type_detection** branch
 
 # Quick Links
 
-1. [Datasets](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/dataset.md)
-2. [Well Identification and Measurement Tutorial](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/well_identification.ipynb)
-3. [Animal Posture Detection Tutorial](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/animal_posture.ipynb)
-4. [Making a Submission](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/submission.md)
-5. [Frequently Asked Questions](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/faqs.md)
-6. [Prizes](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/resources/prizes.md)
+1. [Making a Submission](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/submission.md)
+2. [Prizes](https://github.com/MVet-Platform/M-Vet_Hackathon24/blob/main/prizes.md)
