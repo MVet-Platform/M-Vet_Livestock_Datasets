@@ -1,14 +1,14 @@
 # M-Vet_Hackathon24
 
-This repository contains resources for the [Makerere Artificial Intelligence Lab](https://air.ug/) Computer Vision for agriculture Hackathon.  
+This repository contains resources for the [M-Vet Livestock Project](https://www.m-vet.net/) hackathon.  
 The Hackathon is running from **tdb** to **tdb** .  
 The competition will focus on building computer vision models for Animal type detection and Body score prediction.
 
-### Animal Type detection
+### [Challenge 1: Animal Type detection](https://github.com/MVet-Platform/M-Vet_Hackathon24/tree/animal_type_detection_dataset)
 
 Participants will develop models to predict the types of animals in an image. Animal classes include cow, goat and pig.
 
-### Body score prediction
+### [Challenge 2: Body score prediction](https://github.com/MVet-Platform/M-Vet_Hackathon24/tree/body_scores_prediction_dataset)
 
 Participants will develop models to predict the body score of an animal given an image of the animal. The range of possible values for body score is from 1 to 5
 
