@@ -1,7 +1,7 @@
 # M-Vet_Hackathon24
 
 This repository contains resources for the [M-Vet Livestock Project](https://www.m-vet.net/) hackathon.  
-The Hackathon is running from **tdb** to **tdb** .  
+The Hackathon is running from **20st August 2024** to **26th August 2024** .  
 The competition will focus on building computer vision models for Animal type detection and Body score prediction.
 
 ### [Challenge 1: Animal Type detection](https://github.com/MVet-Platform/M-Vet_Hackathon24/tree/animal_type_detection_dataset)
