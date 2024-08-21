@@ -16,7 +16,7 @@ Participants will develop models to predict the body score of an animal given an
 
 All necessary resources are available in other branches of this repository. Resources for body score prediction can be found in **body_score_prediction_dataset** branch while those for animal type detection can be found in **animal_type_detection** branch
 
-Submissions site can be found at [http://104.248.245.217](http://104.248.245.217)
+Submissions site can be found at [https://www.hackathon.msense.site](https://www.hackathon.msense.site)
 
 # Quick Links
 
