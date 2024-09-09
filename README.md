@@ -12,6 +12,8 @@ Participants will develop models to predict the types of animals in an image. An
 
 Participants will develop models to predict the body score of an animal given an image of the animal. The range of possible values for body score is from 1 to 5
 
+### [Code Submissions](https://github.com/MVet-Platform/M-Vet_Hackathon24/tree/main/code)
+
 #### Note:
 
 All necessary resources are available in other branches of this repository. Resources for body score prediction can be found in **body_score_prediction_dataset** branch while those for animal type detection can be found in **animal_type_detection** branch
