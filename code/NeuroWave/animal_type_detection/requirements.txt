@@ -1,0 +1,9 @@
+ultralytics==8.0.20
+torch==2.0.1
+numpy==1.23.0
+pandas==1.5.0
+matplotlib==3.6.0
+scikit-learn==1.2.0
+opencv-python==4.8.0
+seaborn==0.12.0
+pillow==9.5.0
